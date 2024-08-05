@@ -1,6 +1,6 @@
 {
   "packageManager": "npm@10.2.3",
-  "name": "app",
+  "name": "flights_recon",
   "private": true,
   "version": "0.1.0",
   "babel": {

@@ -10,8 +10,9 @@ yarn install
 
 rails db:create
 rails db:migrate
+rails db:seed
 
-rails s
+rails server or rails s
 ```
 
 Use the provided Procfiles to run webpack and rails together, like `overmind start -f Procfile.dev`
@@ -21,6 +22,7 @@ Use the provided Procfiles to run webpack and rails together, like `overmind sta
 
 
 ## Routes
+To view the routes run `rails routes`.
 ```sh
  root GET    /       pages#index
 api_v1_airlines GET    /api/v1/airlines(.format) api/v1/airlines#index 

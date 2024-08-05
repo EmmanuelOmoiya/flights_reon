@@ -22,6 +22,8 @@ Use the provided Procfiles to run webpack and rails together, like `overmind sta
 
 
 ## Routes
+Access the live api here [Flights Recon API](https://flights-reon.onrender.com/api/v1/airlines).
+
 To view the routes run `rails routes`.
 ```sh
  root GET    /       pages#index
